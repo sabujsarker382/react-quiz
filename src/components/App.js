@@ -1,7 +1,11 @@
+import '../styles/App.css'
+import Nav from "./Nav";
+
 function App() {
   return (
     <div className="App">
-      <h1>Sabuj Sarker From Bangladshs</h1>
+      <Nav/>
+      <h1 style={{ marginTop: "100px" }}>Sabuj Sarker From Bangladshs</h1>
     </div>
   );
 }
