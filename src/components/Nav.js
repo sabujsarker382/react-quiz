@@ -1,5 +1,6 @@
 import style from '../styles/Nav.module.css';
 import logo from '../assets/images/logo-bg.jpeg'
+import Account from './Account';
 
 export default function Nav() {
   return (
@@ -12,13 +13,7 @@ export default function Nav() {
           </a>
         </li>
       </ul>
-      <div className={style.account}>
-        <span className="material-icons-outlined" title="Account">
-          account_circle
-        </span>
-        <a href="signup.html">Signup</a>
-        {/* <span className="material-icons-outlined" title="Logout"> logout </span> */}
-      </div>
+      <Account/>
     </nav>
   );
 }

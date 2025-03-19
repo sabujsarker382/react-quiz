@@ -1,12 +1,15 @@
 import '../styles/App.css'
-import Nav from "./Nav";
+import Layout from './Layout';
+import Home from './pages/Home.js';
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <h1 style={{ marginTop: "100px" }}>Sabuj Sarker From Bangladshs from banfndcnj</h1>
-    </div>
+   
+     <Layout>
+          <Home/>
+     </Layout>
+    
+  
   );
 }
 export default App;
