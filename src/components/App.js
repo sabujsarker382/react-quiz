@@ -3,6 +3,7 @@ import Layout from './Layout';
 import Home from './pages/Home.js';
 import Signup from './pages/Signup.js';
 import Login from './pages/Login.js'
+import Quiz from './pages/Quiz.js';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
      <Layout>
           {/* <Home/> */}
       {/* <Signup/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Quiz/>
      </Layout>
     
   

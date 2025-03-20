@@ -14,7 +14,7 @@ export default function Login(){
                  <TextInput type="text" placeholder="Enter your Email" icon="alternate_email"/>
 
                  <TextInput type="password" placeholder="Enter your password" icon="lock"/>
-                 <Button>Login</Button>
+                 <Button> <span>Login</span></Button>
              </Form>
 
         </div>
